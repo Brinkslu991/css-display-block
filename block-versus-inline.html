@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block & inline Demo</title>
+    <style>
+        body {
+            margin: 10px 0;
+            font-family: Helvetica, sans-serif;
+            background-color: black;
+        }
+        h1 , p, span,h2 {
+            margin: 10px 0;
+            padding: 5px;
+            border: 1px solid#8e8181;
+        }
+        .block-element {
+            display: block;
+            background-color: whitesmoke;
+        }
+        .inline-element {
+            display: inline;
+            background-color:aquamarine;
+        }
+        .lorem {
+            border: 1px solid firebrick;
+            color: firebrick;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="block-element">Size One Heading</h1>
+    <p class="block-element">This is a paragraph.</p>
+    <p class="block-element">I like <span class="inline-element">Corn Flakes</span>and <span class="inline-element">Cheerios</span></p>
+    <br>
+    <h2 class="block-element">Block vs. Inline</h2>
+    <div class="block-element">Block element</div>
+    <br>
+    <br>
+    <div class="lorem">Lorem ipsum text.</div>
+</body>
+</html>
